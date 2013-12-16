@@ -1,0 +1,19 @@
+@media only screen
+and (min-width : 800px)
+{
+
+    div {
+        width: 800px;
+        margin: auto;
+    }
+
+
+    section, aside {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 380px;
+        height: 380px;
+    }
+
+}

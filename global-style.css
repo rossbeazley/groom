@@ -1,6 +1,9 @@
 html {
     color: #d7d9d9;
     font-family: sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -24,7 +27,8 @@ header img {
 
 section, aside {
     margin: 0 auto;
-    background-color: #7F4D26;
+    background-color: #9b1f1c;
+    color: #f5e7cd;
     padding:20px 10px;
 }
 
@@ -39,12 +43,11 @@ dt {
 }
 
 section:nth-child(even) {
-    background-color: #eee;
-    color: #333;
+    background-color: #f5e7cd;
+    color: #171315;
 
 }
 
-div {
-    width: 850px;
-    margin: auto;
+:first-letter {
+    font-size: 1.1em;
 }
