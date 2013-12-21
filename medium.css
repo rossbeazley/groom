@@ -12,8 +12,20 @@ and (min-width : 800px)
         display: inline-block;
         vertical-align: top;
         text-align: center;
-        width: 380px;
+        width: 50%;
         height: 380px;
+        box-sizing: border-box;
+    }
+
+    section:first-child {
+        width: 100%;
+        background-color: #f5e7cd;
+        color: #171315;
+    }
+
+    section:first-child h1 {
+        color: #9b1f1c;
+        margin: 0;
     }
 
 }
