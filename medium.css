@@ -1,5 +1,5 @@
 @media only screen
-and (min-width : 800px)
+and (min-width : 300px)
 {
 
     div {
@@ -17,10 +17,21 @@ and (min-width : 800px)
         box-sizing: border-box;
     }
 
+    aside {
+        font-size: 0.5em;
+        line-height: normal;
+        color: #171315;
+        background-color: #f5e7cd;
+        width: 100%;
+    }
+
     section:first-child {
         width: 100%;
         background-color: #f5e7cd;
         color: #171315;
+        height: 300px;
+        min-height: 300px;
+        padding-bottom: 20px;
     }
 
     section:first-child h1 {
