@@ -1,5 +1,17 @@
 @media only screen
-and (max-width : 480px) {
+and (max-width : 799px) {
+
+    html, body {
+        font-size: 1.0em;
+        line-height: 1.0em;
+        background: none;
+    }
+
+    header {
+        height:91px;
+        background-position: center 20px;
+        background-image: url("img/logo-225.png");
+    }
 
     div {
         width: 100%;
@@ -10,5 +22,61 @@ and (max-width : 480px) {
         display: block;
         width: 100%;
         height: 100%;
+    }
+
+    section {
+
+        color: #171315;
+        background-color: #f5e7cd;
+    }
+
+    hr {
+        display: none;
+    }
+
+    section:first-child h1 {
+        color: #9b1f1c;
+        text-align: center;
+    }
+
+    section img {
+        width:300px;
+        height: 200px;
+        margin: auto;
+        display: block;
+    }
+
+    section p,
+    section a,
+    section a:visited,
+    section a:hover,
+    section a:active {
+        color: #171315;
+        width: 300px;
+        margin: auto;
+        text-align: left;
+        text-decoration: none;
+        display: block;
+    }
+
+
+    section a,
+    section a:visited,
+    section a:hover,
+    section a:active {
+        padding: 20px;
+
+    }
+
+
+    footer a,
+    footer a:visited,
+    footer a:hover,
+    footer a:active
+    {
+        color: #f5e7cd;
+        display: block;
+        width: 90%;
+        margin: auto;
     }
 }
