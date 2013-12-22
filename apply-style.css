@@ -1,0 +1,165 @@
+html {
+    /*color: #d7d9d9;*/
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    /*height: 100%;*/
+    /*background-color: #a9acac;*/
+    font-size: 1.25em;
+    line-height: 1.6em;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header, footer {
+    background: #492c16;
+    width: 100%;
+    box-sizing: border-box;
+}
+header {
+    /*border-top:solid 30px #492c16;*/
+    color: transparent;
+    background-repeat:  no-repeat;
+}
+
+footer {
+    padding: 5px 0;
+    font-size: 0.5em;
+    text-align: right;
+}
+
+
+header img {
+    margin: auto;
+    display: block;
+}
+
+section, aside {
+    margin: 0 auto;
+    background-color: #9b1f1c;
+    color: #f5e7cd;
+    padding:20px 10px;
+    box-sizing: border-box;
+}
+
+dl {
+    margin: 0;
+    display: inline-block;
+}
+
+dt, dd {
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+dt {
+    text-align: right;
+}
+
+
+/*:first-letter {*/
+/*font-size: 1.0em;*/
+/*}*/
+
+
+section hr, aside hr {
+    border: 1px dashed black;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+section p {
+    margin: 0;
+    text-align: right;
+    font-size: 0.85em;
+    line-height: 1.4em;
+    text-decoration: none;
+    color: #f5e7cd;
+    display: block;
+}
+
+header {
+    height:172px;
+    background-position: center 30px;
+    background-image: url("img/logo-450.png");
+}
+
+div {
+    width: 800px;
+    margin: auto;
+}
+
+
+section, aside {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 50%;
+    min-height: 260px;
+}
+
+aside {
+    font-size: 0.5em;
+    line-height: normal;
+    color: #171315;
+    background-color: #f5e7cd;
+    width: 100%;
+}
+
+section:first-child {
+    width: 100%;
+    background-color: #f5e7cd;
+    color: #171315;
+    /*height: 300px;*/
+    min-height: 300px;
+    padding-bottom: 20px;
+}
+
+section:first-child h1 {
+    color: #9b1f1c;
+    margin: 0;
+}
+
+section:nth-child(2) p {
+    margin: 10px 0;
+
+}
+
+section:nth-child(2) hr {
+    border: 1px dashed #f5e7cd;
+    margin:12px 0;
+
+}
+
+section:last-child {
+    width: 100%;
+    background-color: #f5e7cd;
+    color: #171315;
+}
+
+
+
+footer a,
+footer a:visited,
+footer a:hover,
+footer a:active
+{
+    color: #f5e7cd;
+    width: 760px;
+    display: block;
+    margin: auto;
+}
