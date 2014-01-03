@@ -1,8 +1,6 @@
 @media only screen
 and (min-width : 800px)
 {
-
-
     header {
         height:172px;
         background-position: center 30px;
@@ -14,13 +12,12 @@ and (min-width : 800px)
         margin: 36px auto;
     }
 
-
     section, aside {
         display: inline-block;
         vertical-align: top;
         text-align: center;
         width: 50%;
-        min-height: 260px;
+        min-height: 280px;
     }
 
     aside {
@@ -32,12 +29,13 @@ and (min-width : 800px)
     }
 
     section:first-child {
-        width: 100%;
         background-color: #f5e7cd;
+        padding-right: 10px;
         color: #171315;
-        /*height: 300px;*/
-        min-height: 300px;
+        min-height: 360px;
         padding-bottom: 20px;
+        width: 35%;
+        font-size: 0.75em;
     }
 
     section:first-child h1 {
@@ -45,9 +43,22 @@ and (min-width : 800px)
         margin: 0;
     }
 
+    section:nth-child(2) {
+        background-color: #f5e7cd;
+        color: #171315;
+        width: 65%;
+        min-height: 360px;
+        font-size: 1.25em;
+        padding-left: 60px;
+    }
+
     section:nth-child(2) p {
         margin: 10px 0;
-        line-height: 1.2em;
+        /*line-height: 1.2em;*/
+        line-height: 1.5em;
+        color: #171315;
+        /*color: #9b1f1c;*/
+        text-align: left;
     }
 
     section:nth-child(2) hr {
@@ -56,10 +67,15 @@ and (min-width : 800px)
 
     }
 
-    section:last-child {
-        width: 100%;
-        background-color: #f5e7cd;
-        color: #171315;
+    section:last-child,
+    section:last-child p
+    {
+        /*width: 100%;*/
+        background-color: #9b1f1c;
+        color: #f5e7cd;
+        font-size: 1.25em;
+
+
     }
 
 
