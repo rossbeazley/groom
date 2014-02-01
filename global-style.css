@@ -44,12 +44,13 @@ header img {
     display: block;
 }
 
-section, aside {
+section {
     margin: 0 auto;
     background-color: #9b1f1c;
     color: #f5e7cd;
     padding:32px;
     box-sizing: border-box;
+    margin-bottom: 16px;
 }
 
 dl {
@@ -94,4 +95,9 @@ section p {
 
 section p {
     color: #171315;
+}
+
+
+aside img {
+    width:100%;
 }
