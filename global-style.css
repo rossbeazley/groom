@@ -111,7 +111,9 @@ h2 {
 aside[role=notice] {
     min-height: 150px;
     font-size: 1em;
-    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    /*text-align: center;*/
 }
 
 aside[role=notice] h1 {
