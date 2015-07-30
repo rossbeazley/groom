@@ -120,6 +120,8 @@ aside[role=notice] h1 {
     font-size: 2em;
 }
 
-aside[role=notice] p span {
+aside[role=notice] span {
     font-weight: bold;
+    text-align: center;
+    display: block;
 }
