@@ -107,3 +107,17 @@ h2 {
     margin-bottom: 2px;
     line-height: 27px;
 }
+
+aside[role=notice] {
+    min-height: 150px;
+    font-size: 1em;
+    text-align: center;
+}
+
+aside[role=notice] h1 {
+    font-size: 2em;
+}
+
+aside[role=notice] p span {
+    font-weight: bold;
+}
