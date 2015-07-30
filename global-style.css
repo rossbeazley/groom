@@ -118,10 +118,12 @@ aside[role=notice] {
 
 aside[role=notice] h1 {
     font-size: 2em;
+    text-align: center;
 }
 
 aside[role=notice] span {
     font-weight: bold;
     text-align: center;
     display: block;
+    line-height: 150%;
 }
